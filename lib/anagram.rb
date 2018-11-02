@@ -2,10 +2,10 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    @word = work
+    @word = word
   end
 
   def match(anagrams)
-
+    
   end
 end
