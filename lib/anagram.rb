@@ -9,7 +9,6 @@ class Anagram
 
   def match(anagrams)
     anagrams.select {|anagram|
-      anagram.chars.sort == @word.chars.sort
-    
+      anagram.chars.sort == @word.chars.sort}
   end
 end
