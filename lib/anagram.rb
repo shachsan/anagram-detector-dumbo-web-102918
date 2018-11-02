@@ -8,8 +8,8 @@ class Anagram
   end
 
   def match(anagrams)
-    anagrams.select |anagram|
+    anagrams.select {|anagram|
       anagram.chars.sort == @word.chars.sort
-    end
+    
   end
 end
