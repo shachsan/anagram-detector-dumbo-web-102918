@@ -1,3 +1,4 @@
 class Anagram
-  def initialize
+  def initialize(word)
+  end 
 end
