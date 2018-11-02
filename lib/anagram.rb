@@ -6,6 +6,6 @@ class Anagram
   end
 
   def match(anagrams)
-    anagrams.select {|anagram|anagram==@word}
+    anagrams.select {|anagram|anagram.==@word}
   end
 end
