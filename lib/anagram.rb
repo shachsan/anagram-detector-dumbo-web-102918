@@ -1,3 +1,3 @@
 class Anagram
-  def 
+  def initialize
 end
